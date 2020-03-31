@@ -38,7 +38,7 @@
 
 - 초기 로그인 : (username: system), (password: oracle)
 - SQL> conn sys as sysdba; // sys 계정으로 로그인
-- SQL> create user user_id identified by user_pw // user 생성
-- SQL> grant connect, resource to user_id
+- SQL> create user user_id identified by user_pw; // user 생성
+- SQL> grant connect, resource to user_id;
 - SQL> GRANT UNLIMITED TABLESPACE TO user_id; // 나중에 ORA-01950: no privileges on tablespace 에러가 나면.
-- SQL> conn user_id/user_pw // user_id 계정으로 로그인
+- SQL> conn user_id/user_pw; // user_id 계정으로 로그인
