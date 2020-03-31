@@ -24,7 +24,7 @@
 이 경우, /Users/suhyun은 컨테이너 디렉토리이고 /u01/app/oracle은 호스트 디렉토리이다.<br>
 
 
-> \> logs -f oracle12c
+> \> docker logs -f oracle12c
 
 - 오라클 초기화
 
