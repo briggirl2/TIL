@@ -24,7 +24,7 @@
     2. 같은 컬럼에 대한 인덱스 또 추가하지 말자. 인덱스 추가 전에 기존에 어떤 인덱스가 존재하는지, 동일한 효과를 낼 수 있는 다른 인덱스가 있는지 사전 검토 필요
     3. 사전 검토 방법
         
-        [인덱스 사전 검토 유용한 방법](3%20%EC%84%B1%EB%8A%A5%EC%9D%84%20%EC%A2%8C%EC%9A%B0%ED%95%98%EB%8A%94%20DB%20%EC%84%A4%EA%B3%84/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%82%AC%EC%A0%84%20%EA%B2%80%ED%86%A0%20%EC%9C%A0%EC%9A%A9%ED%95%9C%20%EB%B0%A9%EB%B2%95%202c63e0fc1ac7803a8f84f041aff2c74c.md)
+        [인덱스 사전 검토 유용한 방법](./3_DB_architecture_additional/3_1_index_precheck.md)
         
 
 ## 조회 성능 개선 방법
@@ -49,7 +49,7 @@
         1. 단편화(fragmentation)? 데이터가 반복적으로 추가/변경/삭제되는 과정에서 데이터가 흩어져 저장되고 빈 공간이 생기는 현상 → 디스크 IO 증가, 디스크 낭비, 쿼리 성능 저하
         2. 단편화 최적화 방법
             
-            [단편화 최적화 방법](3%20%EC%84%B1%EB%8A%A5%EC%9D%84%20%EC%A2%8C%EC%9A%B0%ED%95%98%EB%8A%94%20DB%20%EC%84%A4%EA%B3%84/%EB%8B%A8%ED%8E%B8%ED%99%94%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EB%B0%A9%EB%B2%95%202c63e0fc1ac780058fc4f4645ba49d8e.md)
+            [단편화 최적화 방법](./3_DB_architecture_additional/3_2_fragmentation_optimize.md)
             
 6. DB 장비 확장
     1. scale up (수직 확장)
